@@ -1,4 +1,4 @@
-    <!-- Home sectie -->
+<!-- Home sectie -->
     <section class="hero"></section>
     <section id="home">
         <div class="container">
@@ -10,7 +10,7 @@
 
     <?php
 // Variabelen voor dynamische inhoud
-$rijschoolNaam = "Rijschool Challenge";
+$rijschoolNaam = "RijschoolChallenge";
 $slogan = "Rijles voor Iedereen";
 $ctaTekst = "Schrijf je nu in voor een proefles";
 $testimonialData = array(
@@ -70,6 +70,14 @@ function displayTestimonials($data) {
         <div class="service">
             <h3>Flexibele Lessen</h3>
             <p>We bieden flexibele lestijden aan die passen bij jouw schema, zodat je altijd kunt leren op een moment dat jou uitkomt.</p>
+        </div>
+        <div class="service">
+            <h3>Persoonlijke Aanpak</h3>
+            <p>Bij Rijschool Challenge geloven we in een persoonlijke benadering. Onze instructeurs passen hun lesmethoden aan op basis van jouw leerstijl en behoeften, waardoor je een gepersonaliseerde en effectieve leerervaring krijgt.</p>
+        </div>
+        <div class="service">
+            <h3>Hoogwaardige Lesauto's</h3>
+            <p>Onze lesauto's zijn modern, goed onderhouden en uitgerust met de nieuwste veiligheidsvoorzieningen. Zo bieden we een veilige en comfortabele omgeving om te leren rijden.</p>
         </div>
         <!-- Voeg meer diensten en voordelen toe indien nodig -->
     </div>

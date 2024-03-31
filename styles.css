@@ -38,6 +38,11 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+.team-member img {
+    width: 250px; 
+    height: auto;
+}
 section.hero{
     background-image: url(img/mercedes-benz.jpg);
     background-position: center;
@@ -47,10 +52,10 @@ section.hero{
     height: 300px;;
     
 }
+
 /* Hero sectie */
 .hero  {
     background-color: #f4f4f4;
-    /* background-image: url(img/mercedes-benz.jpg);*/
     padding: 50px 0;
     text-align: center;
 }
