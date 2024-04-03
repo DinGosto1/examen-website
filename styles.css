@@ -113,6 +113,21 @@ section.hero{
     padding: 50px 0;
 }
 
+.message {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.error-message {
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+}
+
 /* Diensten sectie */
 .services {
     padding: 50px 0;
