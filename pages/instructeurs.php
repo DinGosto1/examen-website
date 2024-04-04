@@ -1,10 +1,4 @@
-    <!-- Instructeurs sectie -->
-    <section id="instructeurs" class="instructors">
-        <div class="container">
-        </div>
-    </section>
-
-    <?php
+<?php
 // Variabelen voor dynamische inhoud
 $rijschoolNaam = "RijschoolChallenge";
 $overOnsTitel = "Onze Instructeurs";

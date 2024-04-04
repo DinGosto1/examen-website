@@ -9,7 +9,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // SQL-query om gegevens in te voegen in de database
     $sql = "INSERT INTO contact_messages (name, email, message) VALUES ('$name', '$email', '$message')";
 
-   
+    // Uitvoeren van de query
+    if ($conn->query($sql) === TRUE) {
+        echo '<div style="text-align: center; padding: 20px; background-color: #dff0d8; border: 1px solid #c3e6cb; color: #155724;">Bedankt! Uw bericht is ontvangen.</div>';
+    } else {
+        echo '<div style="text-align: center; padding: 20px; background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24;">Fout bij het verwerken van uw aanmelding: ' . $conn->error . '</div>';
+    }
 }
 ?>
 <!DOCTYPE html>

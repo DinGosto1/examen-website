@@ -1,10 +1,4 @@
-   <!-- Diensten sectie -->
-   <section id="Tarieven" class="services">
-        <div class="container">
-        </div>
-    </section>
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
